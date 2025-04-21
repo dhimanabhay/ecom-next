@@ -1,6 +1,5 @@
 import { stripe } from "@/lib/stripe";
 import { ProductDetail } from "@/components/product-detail";
-import Stripe from "stripe";
 
 export default async function ProductPage(props: { params: { id: string } }) {
   const { id } = await props.params;
